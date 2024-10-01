@@ -1,0 +1,44 @@
+@use "vendor/normalize";
+@use "partials/colors";
+
+// regular css syntax 
+
+
+nav {background-color:
+    black ;
+}
+
+nav a { 
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    
+}
+
+main article a {
+    font-size: 50px;
+    color: colors.$secondary-font-color;
+    margin-left: 150px;
+}
+
+main figure img {
+    margin-left: 650px;
+    margin-bottom: 20px;
+    
+  }
+
+  main article a ul {
+    color: black;
+    margin-left: 105px;
+    font-size: 70px;
+  }
+
+//scss syntax
+
+nav {background-color:
+    black ;
+    a { color: white;
+        text-decoration: none;
+    }
+  }
+
